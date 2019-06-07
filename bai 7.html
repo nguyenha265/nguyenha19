@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let noiMang = prompt("nội mạng/s");
+    let ngoaiMang = prompt("ngoại mạng/s");
+    if(noiMang <=6){
+       tien1 = noiMang *80;
+    }
+    else if (noiMang > 6) {
+        tien1 = noiMang * 13.33;
+    }
+    if(ngoaiMang <=6){
+        tien2 = ngoaiMang *89;
+    }
+    else if (ngoaiMang > 6) {
+        tien2 = ngoaiMang * 14.85;
+    }
+    alert("tiền điện thoại " + (tien1 + tien2));
+</script>
+</body>
+</html>
